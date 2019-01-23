@@ -1,0 +1,116 @@
+/*---------- GENERAL ----------*/
+
+/*---------- HEADER ----------*/
+
+/*---------- NAV ----------*/
+	
+/*---------- SECTION MAIN ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- SECTION  ----------*/
+
+/*---------- FOOTER ----------*/
+
+/*---------- MODALS ----------*/
+
+/*---------- ACCEPTANCE ----------*/
+.wpcf7-acceptance input{
+    display: none;
+}
+.wpcf7-acceptance label{
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 33px;
+    position: relative;
+    cursor: pointer;
+}
+/* .wpcf7-acceptance .form-checkboxLabel.m-first{
+    margin-top: 16px;
+} */
+.wpcf7-acceptance .wpcf7-list-item-label:before{
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+.wpcf7-acceptance input:checked + .wpcf7-list-item-label:after{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #ffc700;
+    position: absolute;
+    left: 2px;
+    top: 4px;
+}
+.wpcf7-acceptance span.wpcf7-list-item {
+    margin: 0;
+}
+
+/*---------- DOCUMENT MODALS ----------*/
+.docs-modal .modal-dialog{
+	width: 1170px;
+	max-width: 90%;
+}
+.docs-modal h1{
+	font-size:36px;
+	margin-top: 0;
+	line-height: 1.2;
+}
+.docs-modal h2{
+	font-size:30px;
+	margin-top: 0;
+	line-height: 1.2;
+}
+.docs-modal h3{
+	font-size:24px;
+	margin-top: 0;
+	line-height: 1.2;
+}
+.docs-modal h4{
+	font-size:18px;
+	margin-top: 0;
+	line-height: 1.2;
+}
+.docs-modal h5{
+	font-size:14px;
+	margin-top: 0;
+	line-height: 1.2;
+}
+.docs-modal h6{
+	font-size:12px;
+	margin-top: 0;
+	line-height: 1.2;
+}
+.docs-modal p{
+	line-height: 1.2;
+
+}
