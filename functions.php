@@ -23,7 +23,7 @@
 
     // подключение скриптов
     function my_theme_scripts(){
-        // wp_enqueue_script('google-maps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyD3q9ElXkQ_iW7tT24yWufEvhFM_Rclbiw&callback=initMap', '', '',true);
+        // wp_enqueue_script('google-maps', 'https://maps.googleapis.com/maps/api/js?key=XXXXXXXXXXXXXXXXXXXXXXXX&callback=initMap', '', '',true);
         wp_enqueue_script('jquery');
         wp_register_script('bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js', array(), '1', true);
         wp_enqueue_script('bootstrap');
